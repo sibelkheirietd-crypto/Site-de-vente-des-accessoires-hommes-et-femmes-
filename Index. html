@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 2px solid pink;
+}
+
+h1 {
+    color: pink;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: pink;
+}
+
+.hero {
+    height: 60vh;
+    background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    color: pink;
+    border-radius: 10px;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.product {
+    background: #111;
+    border: 1px solid pink;
+    border-radius: 15px;
+    width: 220px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+}
+
+.product p {
+    color: pink;
+}
+
+button {
+    background: pink;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid pink;
+}
